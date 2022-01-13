@@ -1,7 +1,7 @@
 
 import { Fragment } from 'react'
-import Header from "../../../../playerlink-protocol-website/src/components/header";
-import Tail from "../../../../playerlink-protocol-website/src/components/tail";
+import Header from "../../components/header";
+import Tail from "../../components/tail";
 
 const whatplayerlink=[
     {
