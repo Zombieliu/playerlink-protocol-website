@@ -5,7 +5,7 @@ import Tail from "../../components/tail";
 
 const whatplayerlink=[
     {
-        title:"A protocol",
+        title:"A Protocol",
         h1:"Built by contributors all over the world,Create a new form of agreement.",
         a:"Learn more",
         href:"/home",
