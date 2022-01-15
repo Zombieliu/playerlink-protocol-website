@@ -74,23 +74,23 @@ export default function Airdrop() {
 
                                         <div className="text-lg">
                                         <div className="mt-10 flex">
-                                            收获 <div className="text-3xl mx-0.5 -mt-1 text-yellow-500">{AWARD}</div>个GLMR 需要贡献
+                                            收获 <div className="text-3xl mx-0.5 -mt-1 text-yellow-500">{AWARD}</div>个PL 需要贡献
                                         </div>
 
                                            <div className='mt-2 flex'> <div className="text-3xl mx-1.5 -mt-1 text-yellow-500 flex">{PL}</div>
 
-                                               <div> 个PL</div>
+                                               <div> 个USDT</div>
                                            </div>
 
                                         <div>
-                                            截至目前 已收到35,759,931个PL贡献量</div>
+                                            截至目前 已收到35,759,931个USDT贡献量</div>
                                         </div>
 
                                         <div className="mt-10">
-                                            Moonbeam奖励将根据您所贡献DOT的百分比发放（您所贡献的DOT质押量/总的DOT质押量）*150,000,000个GLMR
+                                            PlayerLink奖励将根据您所贡献USDT的百分比发放（您所贡献的USDT总量/总的USDT总量）*250个PL
                                         </div>
                                         <div className="mt-10">
-                                            30%的Token奖励池将在Moonbeam成功上线后立即释放。剩下70%的Token奖励池将在租赁期（96 周）内线性释放。
+                                            5%的Token奖励池将在PlayerLink成功上线后立即释放。剩下15%的Token奖励池将在未来（96 周）内线性释放。
                                         </div>
                                     </div>
 

@@ -77,7 +77,7 @@ const onbuildplayerlink=[
         title:"Jave User Example",
         h1:"Users of the Jave version implement with code samples.",
         a:"Learn more",
-        href:"https://github.com/hqwangningbo/sr25519-java",
+        href:"https://github.com/playerlinkio/playerlink-user-back-end-java-example",
     },
 
     {
@@ -91,6 +91,18 @@ const onbuildplayerlink=[
         h1:"Through simple code service builder can provide external services through PlayerLink.",
         a:"Learn more",
         href:"https://github.com/playerlinkio/playerlink-builder-back-end-ts-example",
+    },
+    {
+        title:"Jave Build Example",
+        h1:"Users of the Jave version implement with code samples.",
+        a:"Learn more",
+        href:"https://github.com/playerlinkio/playerlink-builder-back-end-java-example",
+    },
+    {
+        title:"Python Build Example",
+        h1:"Users of the Python version implement with code samples.",
+        a:"Learn more",
+        href:"",
     },
 
 
