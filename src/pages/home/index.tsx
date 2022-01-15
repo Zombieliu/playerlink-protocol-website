@@ -11,7 +11,7 @@ const introduce=[
         a2:"",
         a2href:"",
         a2style:"",
-        img:'https://near.org/wp-content/uploads/2021/10/foundation-1.png',
+        img:'https://cdn.discordapp.com/attachments/876498266550853642/931542026804166766/1.png',
 
     },
     {
@@ -22,7 +22,7 @@ const introduce=[
         a2:"",
         a2href:"",
         a2style:"",
-        img:'https://near.org/wp-content/uploads/2021/10/scaling-2.png',
+        img:'https://cdn.discordapp.com/attachments/876498266550853642/931512427894407168/3.png',
 
 
     },
@@ -33,7 +33,7 @@ const introduce=[
         ahref:"",
         a2:"",
         a2href:"",
-        img:'https://near.org/wp-content/uploads/2021/10/multi-chain-1.png',
+        img:'https://cdn.discordapp.com/attachments/876498266550853642/931502408729780264/2.png',
         a2style:"",
 
     },
@@ -94,7 +94,7 @@ export default function Home() {
 
                             </div>
 
-                            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 xl:px-32 md:flex justify-between">
+                            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 xl:px-32 md:flex justify-between xl:mb-24">
                                 <div>
                                     <h1 className=" md:max-w-xs xl:max-w-xl mb-32">
                                         <span className="block text-black text-4xl  tracking-tight sm:text-5xl pb-12">Connected to every one of us.</span>
@@ -140,7 +140,7 @@ export default function Home() {
                         </div>
                     </div>
                         <div className="md:ml-10">
-                        <img  src={item.img} alt=""/>
+                        <img className="" src={item.img} alt=""/>
                     </div>
                 </div> )))}
                </div>

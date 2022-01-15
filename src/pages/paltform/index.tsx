@@ -217,7 +217,7 @@ export default function Paltform() {
                                 </a></h3>
                             </div>
                             <div>
-                                <img className="w-48 h-48" src="https://near.org/wp-content/uploads/2021/08/learn-workshops-graphic.png" alt=""/>
+                                <img className="w-48 h-48" src="https://cdn.discordapp.com/attachments/876498266550853642/931859468201910292/c6529312c54d4d6e.png" alt=""/>
                             </div>
 
                         </div>
