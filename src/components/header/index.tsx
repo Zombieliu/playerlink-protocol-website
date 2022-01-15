@@ -34,8 +34,8 @@ const solutions = [
 ]
 const navigation = [
     { name: 'Developers', href: '#' },
-    { name: 'Founders & Creators', href: '#' },
     { name: 'Community', href: '#' },
+    { name: 'Airdrop', href: '/airdrop' },
     { name: 'Blog', href: 'https://playerlink.gitbook.io/welcome-to-gitbook/ZMImdXpg8mvWIc1Z1H3L' },
 ]
 function classNames(...classes) {
