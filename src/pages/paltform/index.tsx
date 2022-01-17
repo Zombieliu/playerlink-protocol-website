@@ -134,7 +134,7 @@ export default function Paltform() {
                                     />
 
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-32">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
                                     <h1 className=" ">
                                         <span className="block text-black text-4xl  tracking-tight sm:text-5xl pb-12">Platform</span>
                                         <span className="block text-base text-indigo-200">PlayerLink is a collective, a foundation,  and service platform built on <br/>a new layer 0 blockchain.

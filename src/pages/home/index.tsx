@@ -94,7 +94,7 @@ export default function Home() {
 
                             </div>
 
-                            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 xl:px-32 md:flex justify-between xl:mb-48">
+                            <div className="max-w-7xl relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 2xl:mx-auto md:flex justify-between xl:mb-48">
                                 <div>
                                     <h1 className=" md:max-w-xs xl:max-w-xl mb-32">
                                         <span className="block text-black text-4xl  tracking-tight sm:text-5xl pb-12">Connected to every one of us.</span>
