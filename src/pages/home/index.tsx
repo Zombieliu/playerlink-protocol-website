@@ -11,7 +11,7 @@ const introduce=[
         a2:"",
         a2href:"",
         a2style:"",
-        img:'https://cdn.discordapp.com/attachments/876498266550853642/931542026804166766/1.png',
+        img:'https://cdn.discordapp.com/attachments/876498266550853642/932149741037453362/1.png',
 
     },
     {
