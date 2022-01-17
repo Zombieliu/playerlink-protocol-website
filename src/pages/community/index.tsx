@@ -135,7 +135,7 @@ export default function Community() {
                                     />
 
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-32">
+                                <div className="max-w-7xl relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32  2xl:mx-auto">
                                     <div className=" xl:w-4/12">
                                         <span className="block text-black text-4xl  tracking-tight sm:text-5xl pb-12">Community</span>
                                         <span className="block text-sm text-gray-500">The PlayerLink Community is made up of Innovators, Creators, Contributors, and, of course, a few wild cards. We’re all here to build a stronger ecosystem.
