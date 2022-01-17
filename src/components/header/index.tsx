@@ -34,7 +34,7 @@ const solutions = [
 ]
 const navigation = [
     { name: 'Developers', href: '#' },
-    { name: 'Community', href: '#' },
+    { name: 'Community', href: '/community' },
     { name: 'Airdrop', href: '/airdrop' },
     { name: 'Blog', href: 'https://playerlink.gitbook.io/welcome-to-gitbook/ZMImdXpg8mvWIc1Z1H3L' },
 ]
@@ -44,7 +44,7 @@ function classNames(...classes) {
 export default function Header(){
     return(
         <header>
-            <Popover className="relative bg-white">
+            <Popover className="relative bg-white ">
                 <div className="flex  fixed z-20 inset-x-0 bg-white mb-10  justify-between  items-center p-3 md:p-3 sm:px-6 lg:justify-start md:space-x-10 lg:px-32">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
                         <Link  href="/">
@@ -58,7 +58,7 @@ export default function Header(){
                         </a></Link>
 
                     </div>
-                    <div className="-mr-2 -my-2 lg:hidden">
+                    <div className="-mr-2  -my-2 lg:hidden">
                         <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                             <span className="sr-only">Open menu</span>
                             <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -146,7 +146,7 @@ export default function Header(){
 
                 </div>
 
-
+             <div className="fixed z-20 inset-x-0">
                 <Transition
                     as={Fragment}
                     enter="duration-200 ease-out"
@@ -158,9 +158,9 @@ export default function Header(){
                 >
                     <Popover.Panel
                         focus
-                        className="absolute my-auto  fixed z-20 min-h-screen inset-x-0 inset-y-auto   p-2 transition transform origin-top-right md:hidden"
+                        className="absolute my-auto  fixed z-20 inset-x-0  min-h-screen  inset-y-auto   p-2 transition transform origin-top-right md:hidden"
                     >
-                        <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                        <div className="rounded-lg  shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">
                                 <div className="flex items-center justify-between">
                                     <div>
@@ -210,7 +210,9 @@ export default function Header(){
                             </div>
                         </div>
                     </Popover.Panel>
+
                 </Transition>
+</div>
             </Popover>
         </header>
     )
