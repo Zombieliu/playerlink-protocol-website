@@ -196,7 +196,26 @@ export default function Community() {
                             </div>
 
                         </div>
+                        </div>
+                    <div className="relative ">
+                        <div className="absolute inset-x-0 bottom-0    " />
+                        <div className=" mx-auto  ">
+                            <div className="relative sm:overflow-hidden">
+                                <div className="absolute inset-0">
+                                    <img
+                                        className="h-full w-full object-cover"
+                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        alt="People working on laptops"
+                                    />
+                                </div>
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    
+                    <div className="max-w-7xl mx-auto py-16  px-4 ">
                         <div className="pt-36">
                             <div  className="text-5xl text-black font-medium pr-20 mt-5">
                                 <div className="mt-5 xl:w-56 text-3xl">
@@ -244,8 +263,26 @@ export default function Community() {
                             </div>
 
                         </div>
+                        </div>
+                    <div className="relative ">
+                        <div className="absolute inset-x-0 bottom-0    " />
+                        <div className=" mx-auto  ">
+                            <div className="relative sm:overflow-hidden">
+                                <div className="absolute inset-0">
+                                    <img
+                                        className="h-full w-full object-cover"
+                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        alt="People working on laptops"
+                                    />
+                                </div>
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
+                    <div className="max-w-7xl mx-auto py-16  px-4 ">
                         <div className="pt-36">
                             <div  className="text-5xl text-black font-medium pr-20 mt-5">
                                 <div className="mt-5 xl:w-56 mb-6 text-3xl">
@@ -274,7 +311,26 @@ export default function Community() {
                             </div>
 
                         </div>
+                        </div>
+                    <div className="relative ">
+                        <div className="absolute inset-x-0 bottom-0    " />
+                        <div className=" mx-auto  ">
+                            <div className="relative sm:overflow-hidden">
+                                <div className="absolute inset-0">
+                                    <img
+                                        className="h-full w-full object-cover"
+                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        alt="People working on laptops"
+                                    />
+                                </div>
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+
+                    <div className="max-w-7xl mx-auto py-16  px-4 ">
                         <div className="py-36">
                             <div  className="text-5xl text-black font-medium pr-20 mt-5">
                                 <div className="mt-5  mb-6 text-3xl">
@@ -299,8 +355,25 @@ export default function Community() {
                             </div>
 
                         </div>
-
+                        </div>
+                    <div className="relative ">
+                        <div className="absolute inset-x-0 bottom-0    " />
+                        <div className=" mx-auto  ">
+                            <div className="relative sm:overflow-hidden">
+                                <div className="absolute inset-0">
+                                    <img
+                                        className="h-full w-full object-cover"
+                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        alt="People working on laptops"
+                                    />
+                                </div>
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+
                 </div>
 
                 <Tail></Tail>

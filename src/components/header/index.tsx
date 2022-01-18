@@ -34,9 +34,10 @@ const solutions = [
 ]
 const navigation = [
     { name: 'Developers', href: '#' },
-    { name: 'Community', href: '/community' },
-    { name: 'Airdrop', href: '/airdrop' },
-    { name: 'Blog', href: 'https://playerlink.gitbook.io/welcome-to-gitbook/ZMImdXpg8mvWIc1Z1H3L' },
+    {name:  'Founders',   href:"/founders"},
+    { name: 'Community',  href: '/community' },
+    { name: 'Airdrop',    href: '/airdrop' },
+    { name: 'Blog',       href: 'https://playerlink.gitbook.io/welcome-to-gitbook/ZMImdXpg8mvWIc1Z1H3L' },
 ]
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
