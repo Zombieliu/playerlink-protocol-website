@@ -70,7 +70,7 @@ const Started=[
         title:"Join our Discord",
         h1:"Join ongoing topical conversations about all things NEAR.",
         a:"Go to Discord",
-        href:"",
+        href:"https://discord.gg/Hypkryxwsb",
     },
     {
         i:"fa fa-check-square-o text-pink-500",
@@ -86,13 +86,13 @@ const community=[
     {
         i:"fa fa-university text-blue-400",
         title:"Community Wiki",
-        h1:"A playbook for the NEAR Community.",
+        h1:"A playbook for the PlayerLink Community.",
         a:"Go to the Wiki",
         href:"",
     },
     {
         i:"fa fa-graduation-cap text-indigo-600",
-        title:"NEAR Brand Toolkit",
+        title:"PlayerLink Brand Toolkit",
         h1:"Tools to build the brand together.",
         a:"Learn more",
         href:"https://github.com/playerlinkio/playerlink-user-back-end-java-example",
@@ -100,9 +100,9 @@ const community=[
 
     {
         i:"fa fa-sun-o text-yellow-300",
-        title:"The NEAR Forum",
+        title:"The PlayerLink Forum",
         h1:"Follow progress within the Ecosystem.",
-        a:"forum.near.org",
+        a:"forum.PlayerLink.org",
         href:"",
     },
     {
@@ -142,20 +142,20 @@ export default function Community() {
                                     </span>
                                     </div>
                                     <div className="flex justify-between mt-10">
-                                        <a href=''  className=" px-5 py-3 rounded-full text-gray-600 text-base font-normal border border-black transition duration-700 hover:bg-gray-700  hover:text-white">
+                                    <a href='https://discord.gg/GQ2Q9kSD'  className=" px-5 py-3 rounded-full text-gray-600 text-base font-normal border border-black transition duration-500 hover:bg-gray-700  hover:text-white">
                                         Connect to a Human on Discord</a></div>
                                     <div className="flex justify-between mt-20 xl:mr-32 grid grid-cols-2 xl:grid-cols-4">
                                         <div className="mb-24 xl:mb-0">
-                                            <div className="text-5xl mb-10">1M+ </div>
+                                            <div className="text-5xl mb-10">1048+ </div>
 
-                                            <div className="text-xl text-blue-500"> Accounts Created</div></div>
+                                            <div className="text-xl text-blue-500"> Collection</div></div>
                                         <div  className="mb-24 xl:mb-0">
-                                            <div className="text-5xl mb-10">100+</div>
-                                            <div  className="text-xl text-indigo-600 ">Guilds & DAOs</div>
+                                            <div className="text-5xl mb-10">10K+</div>
+                                            <div  className="text-xl text-indigo-600 ">Serve</div>
                                         </div>
 
                                         <div  className="mb-24 xl:mb-0">
-                                            <div className="text-5xl mb-10">83k+</div>
+                                            <div className="text-5xl mb-10">100k+</div>
                                             <div  className="text-xl text-purple-500">Members</div>
                                         </div>
 
@@ -214,18 +214,17 @@ export default function Community() {
                         </div>
                     </div>
 
-                    
+
                     <div className="max-w-7xl mx-auto py-16  px-4 ">
                         <div className="pt-36">
                             <div  className="text-5xl text-black font-medium pr-20 mt-5">
-                                <div className="mt-5 xl:w-56 text-3xl">
-                                    Guilds
+                                <div className="mt-5 xl:w-96 text-3xl">
+                                    Developer Community
                                 </div>
                                 <div className="text-base xl:w-1/2 my-5 text-gray-500 font-medium">
-                                    Guilds are communities that make up the greater NEAR community. Each guild shares a specific vision and mission related to driving a more open, interconnected, and consumer-empowered world.
-                                </div>
+                                    The developer community is an important part of the PlayerLink community. Each strong community has several Linkers responsible for connecting people in the community to build a strong developer ecosystem.</div>
                                 <div className="text-xl py-5">
-                                    Featured Guilds
+                                    Featured Community
                                 </div>
                             </div>
                             <div className=" flex mt-5 grid md:grid-cols-2 xl:grid-cols-4">
@@ -289,7 +288,7 @@ export default function Community() {
                                     Get Started
                                 </div>
                                 <div className="text-base xl:w-1/2 my-5 text-gray-500 font-medium">
-                                    The NEAR Community provides a number of ways for you to start learning, earning and growing.
+                                    The PlayerLink Community provides a number of ways for you to start learning, earning and growing.
                                 </div>
 
                             </div>

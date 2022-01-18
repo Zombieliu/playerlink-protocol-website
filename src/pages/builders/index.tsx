@@ -7,13 +7,13 @@ const whyplayerlink=[
     {
         i:"fa fa-share-alt text-blue-400",
         title:"Simple",
-        h1:"NEAR enables a world of NFTs, DAOs, and other new business models, easily.",
+        h1:"Easily consume and build services through PlayerLink.",
 
     },
     {
         i:"fa fa-arrows-alt text-indigo-400",
         title:"Scalable",
-        h1:"NEAR grows with you, delivering extremely fast experiences with extremely low costs.",
+        h1:"PlayerLink grows with you, delivering extremely fast experiences with extremely low costs.",
 
     },
 
@@ -26,7 +26,7 @@ const whyplayerlink=[
     {
         i:"fa fa-balance-scale text-purple-700",
         title:"Open to All",
-        h1:"NEAR bridges to Ethereum and other ecosystems for easy interoperability.",
+        h1:"PlayerLink connects to different blockchain systems to grow together.",
 
     },
 
@@ -92,14 +92,14 @@ const nextstep=[
         title:"Work with Us",
         h1:"Let us help you get your idea built.",
         a:"Tell us about your project",
-        href:"",
+        href:"https://github.com/playerlinkio/playerlink-grant",
     },
     {
         i:"fa fa-database text-yellow-400",
         title:"Foundation Grants",
         h1:"Foundation Grants",
         a:"Get Funding",
-        href:"",
+        href:"https://playerlink.foundation/",
     },
 
     {
@@ -123,7 +123,7 @@ const nextstep=[
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-export default function Paltform() {
+export default function Builders() {
     return(
         <div className="min-h-screen bg-white">
             <header>
@@ -206,11 +206,11 @@ export default function Paltform() {
                       <div className=" mt-36">
                             <div  className="text-5xl text-black font-medium pr-20 mt-5">
                                 <div className="mt-5 xl:w-96 text-3xl">
-                                    Join like-minded founders and creators on NEAR
+                                    Join like-minded Linkers and Creators on PlayerLink
                                 </div>
                             </div>
                           <div className="text-sm text-black font-medium pr-20 mt-5 xl:w-96">
-                              These trailblazers are using NEAR to bring web3 ideas to consumers at web2 scale.
+                              These trailblazers are using PlayerLink connects to different blockchain systems to grow together to bring web3 ideas to consumers at web2 scale.
                           </div>
                           <div className="max-w-7xl  py-16 px-4 flex mt-5 grid md:grid-cols-2 xl:grid-cols-4 ">
                               {founders.map((item=>(
@@ -253,7 +253,7 @@ export default function Paltform() {
                                     Who’s building on PlayerLink?
                                 </div>
                                 <div className="text-sm text-black font-medium pr-20 mt-5 xl:w-96">
-                                    Leading creators and communities are building the future on NEAR, here are just a few.
+                                    Leading creators and communities are building the future on PlayerLink, here are just a few.
                                 </div>
                                 </div>
                                 {onbuildplayerlink.map((item=>(

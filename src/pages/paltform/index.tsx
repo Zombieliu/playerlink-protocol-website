@@ -218,7 +218,7 @@ export default function Paltform() {
                             </div>
 
                         </div>
-                        <div className="flex justify-center my-32 ">
+                        <div className="md:flex justify-center my-32 ">
                             <div className="w-80 mr-32">
                                 <h1 className="flex flex-wrap text-3xl mb-5">Explore <div className="ml-1 text-purple-400 mb-3"> Courses </div>
                                     <div className="ml-1 text-purple-400">& Workshops</div></h1>
@@ -228,7 +228,7 @@ export default function Paltform() {
                                     <i className="fa fa-chevron-right ml-5" aria-hidden="true"></i>
                                 </a></h3>
                             </div>
-                            <div>
+                            <div className="flex justify-center mt-20 md:mt-0">
                                 <img className="w-48 h-48" src="https://cdn.discordapp.com/attachments/876498266550853642/931859468201910292/c6529312c54d4d6e.png" alt=""/>
                             </div>
 

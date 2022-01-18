@@ -19,12 +19,16 @@ const solutions = [
         icon: InboxIcon,
     },
     {
-        name: 'Messaging',
+        name: 'Careers',
         description: 'Speak directly to your customers in a more meaningful way.',
-        href: '#',
+        href: '/careers',
         icon: AnnotationIcon,
     },
-    { name: 'Live Chat', description: "Your customers' data will be safe and secure.", href: '#', icon: ChatAlt2Icon },
+    {
+        name: 'Live Chat',
+        description: "Your customers' data will be safe and secure.",
+        href: '#',
+        icon: ChatAlt2Icon },
     {
         name: 'Knowledge Base',
         description: "Connect with third-party tools that you're already using.",
@@ -33,8 +37,8 @@ const solutions = [
     },
 ]
 const navigation = [
-    { name: 'Developers', href: '#' },
-    {name:  'Founders',   href:"/founders"},
+    { name: 'Developers', href: '/developers' },
+    {name:  'Builders',   href:"/builders"},
     { name: 'Community',  href: '/community' },
     { name: 'Airdrop',    href: '/airdrop' },
     { name: 'Blog',       href: 'https://playerlink.gitbook.io/welcome-to-gitbook/ZMImdXpg8mvWIc1Z1H3L' },
