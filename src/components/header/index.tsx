@@ -15,7 +15,7 @@ const solutions = [
     {
         name: 'The Platform',
         description: 'Get a better understanding of where your traffic is coming from.',
-        href: '/paltform',
+        href: '/platform',
         icon: InboxIcon,
     },
     {
@@ -50,7 +50,7 @@ export default function Header(){
     return(
         <header>
             <Popover className="relative bg-white ">
-                <div className="flex  fixed z-20 inset-x-0 bg-white mb-10  justify-between  items-center p-3 md:p-3 sm:px-6 lg:justify-start md:space-x-10 lg:px-32">
+                <div className="flex  fixed z-20 inset-x-0 bg-white mb-10  justify-between  items-center p-3 md:p-3 sm:px-6 lg:justify-start md:space-x-10 2xl:pl-32 ">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
                         <Link  href="/">
                         <a>
