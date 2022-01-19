@@ -199,7 +199,7 @@ export default function Paltform() {
                                 </a></h3>
                             </div>
                             <div className="flex justify-center mt-20 md:mt-0">
-                                <img className="w-48 h-48" src="https://near.org/wp-content/uploads/2021/08/find-a-guild-3d.png" alt=""/>
+                                <img className="w-56 h-56" src="https://cdn.discordapp.com/attachments/876498266550853642/933321036517228554/514636143b5d9177.png" alt=""/>
                             </div>
 
                         </div>
