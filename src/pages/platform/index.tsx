@@ -113,7 +113,7 @@ const onbuildplayerlink=[
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
-export default function Paltform() {
+export default function Platform() {
     return(
         <div className="min-h-screen bg-white">
             <header>

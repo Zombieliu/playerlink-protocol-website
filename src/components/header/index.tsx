@@ -15,7 +15,7 @@ const solutions = [
     {
         name: 'The Platform',
         description: 'Get a better understanding of where your traffic is coming from.',
-        href: '/paltform',
+        href: '/platform',
         icon: InboxIcon,
     },
     {
