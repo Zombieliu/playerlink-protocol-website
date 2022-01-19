@@ -25,14 +25,14 @@ const solutions = [
         icon: AnnotationIcon,
     },
     {
-        name: 'Live Chat',
+        name: 'Guilds',
         description: "Your customers' data will be safe and secure.",
-        href: '#',
+        href: '/guilds',
         icon: ChatAlt2Icon },
     {
-        name: 'Knowledge Base',
+        name: 'Grant',
         description: "Connect with third-party tools that you're already using.",
-        href: '#',
+        href: 'https://community-grant-website.vercel.app/',
         icon: QuestionMarkCircleIcon,
     },
 ]
