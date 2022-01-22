@@ -84,7 +84,7 @@ const onbuildplayerlink=[
         title:"Python User Example",
         h1:"Users of the Python version implement with code samples.",
         a:"Learn more",
-        href:"",
+        href:"https://github.com/playerlinkio/playerlink-user-back-end-py-example",
     },
     {
         title:"TypeScript Build Example",
@@ -102,7 +102,7 @@ const onbuildplayerlink=[
         title:"Python Build Example",
         h1:"Users of the Python version implement with code samples.",
         a:"Learn more",
-        href:"",
+        href:"https://github.com/playerlinkio/playerlink-builder-back-end-py-example",
     },
 
 

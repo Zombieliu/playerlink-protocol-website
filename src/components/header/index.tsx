@@ -18,23 +18,34 @@ const solutions = [
         href: '/platform',
         icon: InboxIcon,
     },
+
     {
         name: 'Careers',
         description: 'Speak directly to your customers in a more meaningful way.',
         href: '/careers',
         icon: AnnotationIcon,
     },
+
     {
         name: 'Guilds',
         description: "Your customers' data will be safe and secure.",
         href: '/guilds',
-        icon: ChatAlt2Icon },
+        icon: ChatAlt2Icon
+    },
+
     {
         name: 'Grant',
         description: "Connect with third-party tools that you're already using.",
         href: 'https://community-grant-website.vercel.app/',
         icon: QuestionMarkCircleIcon,
     },
+    {
+        name: 'Contributor ',
+        description: "Connect with third-party tools that you're already using.",
+        href: '/contributor ',
+        icon: QuestionMarkCircleIcon,
+    },
+
 ]
 const navigation = [
     { name: 'Developers', href: '/developers' },
@@ -163,7 +174,7 @@ export default function Header(){
                 >
                     <Popover.Panel
                         focus
-                        className="absolute my-auto  fixed z-20 inset-x-0  min-h-screen  inset-y-auto   p-2 transition transform origin-top-right md:hidden"
+                        className="absolute my-auto  fixed z-20 inset-x-0  min-h-screen  inset-y-auto   p-2 transition transform origin-top-right lg:hidden"
                     >
                         <div className="rounded-lg  shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                             <div className="pt-5 pb-6 px-5">

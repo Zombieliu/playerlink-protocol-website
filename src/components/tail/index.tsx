@@ -30,13 +30,13 @@ const toend=[
         title:"社区",
         h1:"Discord",
         h1url:"https://discord.gg/Hypkryxwsb",
-        h2:"Twitter",
-        h2url:"#",
+        h2:"Telegram",
+        h2url:"https://t.me/PlayerLink",
         h3:"Instagram",
         h3url:"#",
         h4:'Medium',
         h4url:"",
-        h5:"",
+        h5:"Twitter",
         h5url:"",
     },
 ]
@@ -85,7 +85,7 @@ export default function Tail(){
                                                     <a href={ends.h3url}>{ends.h3}</a></p>
                                                 <p className="flex mb-2 justify-center text-gray-400 hover:text-black hover:underline delay-75">
                                                     <a href={ends.h4url}>{ends.h4}</a></p>
-                                                <p className="flex mb-2 justify-center text-gray-400 hover:text-gray-50 delay-75">
+                                                <p className="flex mb-2 justify-center text-gray-400 hover:text-black hover:underline delay-75">
                                                     <a href={ends.h5url}>{ends.h5}</a></p>
                                             </h2>
                                         </div>

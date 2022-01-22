@@ -225,7 +225,7 @@ export default function Careers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934425520282681364/6b448e33b0238df3.jpg"
                                         alt="People working on laptops"
                                     />
 
