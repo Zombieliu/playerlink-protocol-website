@@ -227,12 +227,12 @@ export default function Developers() {
 
                     <div className="max-w-7xl mx-auto py-16  px-4 ">
                         <div className="xl:flex">
-                        <div className="mt-24">
+                        <div className="mt-24 xl:mt-0">
                             <div className="text-4xl text-green-400">
                             <i className="fa fa-code" aria-hidden="true"></i>
                             </div>
-                            <div  className="text-5xl text-black font-medium  mt-5">
-                                <div className="mt-5 w-96 text-3xl">
+                            <div  className="text-5xl text-black font-medium  mt-5 ">
+                                <div className="mt-5 xl:w-96 text-3xl">
                                     Why PlayerLink?
                                 </div>
                                 <div className="text-sm text-black font-medium pr-20 mt-5 xl:w-96">
@@ -240,11 +240,11 @@ export default function Developers() {
                                 </div>
                             </div>
                         </div>
-                            <div className=" flex mt-5 grid md:grid-cols-2 xl:grid-cols-3">
+                            <div className=" flex mt-5 xl:mt-0 grid md:grid-cols-2 xl:grid-cols-3">
                                 {whyplayerlink.map((item=>(
 
 
-                                    <div key={item.title} className="mt-5 ml-10">
+                                    <div key={item.title} className="mt-5 xl:ml-10">
 
                                         <div className="text-3xl my-5">
                                             <i className={item.i} aria-hidden="true"></i>
@@ -267,11 +267,11 @@ export default function Developers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945021538314/41.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -313,11 +313,11 @@ export default function Developers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945248022568/42.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -382,11 +382,11 @@ export default function Developers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945445150740/43.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -425,11 +425,11 @@ export default function Developers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945667440700/44.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>

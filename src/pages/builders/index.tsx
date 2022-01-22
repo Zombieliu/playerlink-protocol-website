@@ -191,11 +191,11 @@ export default function Builders() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945021538314/41.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -233,11 +233,11 @@ export default function Builders() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945248022568/42.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -280,11 +280,11 @@ export default function Builders() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945445150740/43.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>
@@ -323,11 +323,11 @@ export default function Builders() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934417945667440700/44.jpg"
                                         alt="People working on laptops"
                                     />
                                 </div>
-                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
+                                <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-40 mx-auto max-w-7xl">
                                 </div>
                             </div>
                         </div>

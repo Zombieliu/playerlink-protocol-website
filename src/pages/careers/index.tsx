@@ -225,14 +225,14 @@ export default function Careers() {
                                 <div className="absolute inset-0">
                                     <img
                                         className="h-full w-full object-cover"
-                                        src="https://cdn.discordapp.com/attachments/897398778166906911/930821324136390716/12312312asd.jpg"
+                                        src="https://cdn.discordapp.com/attachments/876498266550853642/934364115743436830/88268f0b27f3ed97.jpg"
                                         alt="People working on laptops"
                                     />
 
                                 </div>
                                 <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 mx-auto max-w-7xl">
                                     <h1 className=" ">
-                                        <span className="block text-black text-4xl  tracking-tight sm:text-5xl pb-12">Rebuild the web</span>
+                                        <span className="block text-white text-4xl  tracking-tight sm:text-5xl pb-12">Rebuild the web</span>
                                         <span className="block text-base text-indigo-200 w-96"> PlayerLink`s mission is to enable everyone to use and build services without trust. join us
                                     </span>
                                     </h1>
