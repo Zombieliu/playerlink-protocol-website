@@ -1,11 +1,13 @@
 import {Popover, Transition} from "@headlessui/react";
 import {
-    AnnotationIcon,
     ChatAlt2Icon,
-    InboxIcon,
     MenuIcon,
-    QuestionMarkCircleIcon,
-    XIcon
+    XIcon,
+    GlobeAltIcon,
+    UsersIcon,
+    TemplateIcon,
+    CurrencyDollarIcon,
+    SearchCircleIcon, SparklesIcon
 } from "@heroicons/react/outline";
 import {ChevronDownIcon} from "@heroicons/react/solid";
 import {Fragment} from "react";
@@ -16,35 +18,42 @@ const solutions = [
         name: 'The Platform',
         description: 'Get a better understanding of where your traffic is coming from.',
         href: '/platform',
-        icon: InboxIcon,
+        icon: TemplateIcon,
     },
 
     {
         name: 'Careers',
         description: 'Speak directly to your customers in a more meaningful way.',
         href: '/careers',
-        icon: AnnotationIcon,
+        icon: UsersIcon,
     },
 
     {
-        name: 'Guilds',
-        description: "Your customers' data will be safe and secure.",
-        href: '/guilds',
-        icon: ChatAlt2Icon
+        name: 'Bounties ',
+        description: "Connect with third-party tools that you're already using.",
+        href: '/bounties ',
+        icon: CurrencyDollarIcon,
     },
 
     {
         name: 'Grant',
         description: "Connect with third-party tools that you're already using.",
         href: 'https://community-grant-website.vercel.app/',
-        icon: QuestionMarkCircleIcon,
+        icon: SparklesIcon,
     },
     {
         name: 'Contributor ',
         description: "Connect with third-party tools that you're already using.",
         href: '/contributor ',
-        icon: QuestionMarkCircleIcon,
+        icon: GlobeAltIcon,
     },
+    {
+        name: 'Guilds',
+        description: "Your customers' data will be safe and secure.",
+        href: '/guilds',
+        icon: SearchCircleIcon
+    },
+
 
 ]
 const navigation = [
@@ -87,7 +96,7 @@ export default function Header(){
                                     <Popover.Button
                                         className={classNames(
                                             open ? 'text-gray-900' : 'text-gray-500',
-                                            'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                                            'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-400'
                                         )}
                                     >
                                         <span>Learn</span>
@@ -119,7 +128,7 @@ export default function Header(){
 
                                                             className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                                                         >
-                                                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
+                                                            <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400 text-white sm:h-12 sm:w-12">
                                                                 <item.icon className="h-6 w-6" aria-hidden="true" />
                                                             </div>
                                                             <div className="ml-4">
@@ -153,8 +162,7 @@ export default function Header(){
                             defaultValue="Canada"
                         >
                             <option>English</option>
-                            <option>China</option>
-                            <option>Tiếng Việt</option>
+
                         </select>
 
                     </div>
@@ -194,15 +202,17 @@ export default function Header(){
                                     </div>
                                 </div>
                                 <div className="mt-6">
-                                    <nav className="grid grid-cols-1 gap-7">
+                                    <nav className="grid grid-cols-2 md:grid-cols-2 gap-7">
                                         {solutions.map((item) => (
                                             <a
                                                 key={item.name}
                                                 href={item.href}
-                                                className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
+                                                className="-m-3 p-3 flex items-center  hover:bg-gray-50 border-b"
                                             >
-                                                <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white">
+                                                <div className="">
+                                                <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-400  text-white">
                                                     <item.icon className="h-6 w-6" aria-hidden="true" />
+                                                </div>
                                                 </div>
                                                 <div className="ml-4 text-base font-medium text-gray-900">{item.name}</div>
                                             </a>
@@ -210,8 +220,8 @@ export default function Header(){
                                     </nav>
                                 </div>
                             </div>
-                            <div className="py-6 px-5">
-                                <div className="grid grid-cols-2 gap-4">
+                            <div className="py-6 ">
+                                <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center ">
                                     {navigation.map((item) => (
                                         <a
                                             key={item.name}
