@@ -4,11 +4,7 @@ import Header from "../../components/header";
 import Tail from "../../components/tail";
 
 const people=[
-    {
-        h1:"Henry",
-        h2:"CEO",
-        img:"https://cdn.discordapp.com/attachments/897398778166906911/928298254746140722/liu.jpg",
-    },
+
     {
         h1:"Cheng-gh",
         h2:"",
@@ -45,7 +41,11 @@ const people=[
         h2:"",
         img:"https://cdn.discordapp.com/attachments/897398778166906911/928294804633305128/20220105223158.jpg",
     },
-
+    {
+        h1:"Henry",
+        h2:"",
+        img:"https://cdn.discordapp.com/attachments/897398778166906911/928298254746140722/liu.jpg",
+    },
 
 ]
 

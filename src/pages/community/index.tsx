@@ -142,7 +142,7 @@ export default function Community() {
                                     </span>
                                     </div>
                                     <div className="flex justify-between mt-10">
-                                    <a href='https://discord.gg/GQ2Q9kSD'  className=" px-5 py-3 rounded-full text-gray-600 text-base font-normal border border-black transition duration-500 hover:bg-gray-700  hover:text-white">
+                                    <a href='https://discord.gg/JWswSKx4hg'  className=" px-5 py-3 rounded-full text-gray-600 text-base font-normal border border-black transition duration-500 hover:bg-gray-700  hover:text-white">
                                         Connect to a Human on Discord</a></div>
                                     <div className="flex justify-between mt-20 xl:mr-32 grid grid-cols-2 xl:grid-cols-4">
                                         <div className="mb-24 xl:mb-0">
